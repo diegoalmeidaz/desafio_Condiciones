@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Desafio 3.2</title>
+</head>
+<body>
+
+    <header class="titulo">
+        <div class="containerTitulo">
+         <h1>GRUBERLANDIA</h1>
+        <div>
+        </header>
+
+    <!-- Parte 1: Agregar y quitar borde -->
+
+   <section class="imageBurgerContainer">
+    <p>PINTA EL BORDE: APRIETA LA IMAGEN & DALE BORDE A LA HAMBURGUESA</p>
+    <div class="burger">
+        <img  id="brg" src="assets/img/hamburguesa vector.png" alt="hamburguesa vector" width="60%">
+    </div>
+   </section>
+
+
+   <!-- Parte 2: stickers-->
+
+   <section class="stickerContainer">
+    <p class="descripcionActividadSticker"> PUEDES LLEVAR HASTA 10 STICKERS, SELECCIONA CUANTOS QUIERES Y LLEVATELOS</p>
+    <div class="stickers">
+        <div class="imagen">
+            <img src="assets/img/sticker1.png" alt="sticker1">
+            <input type="number" id="sticker_1">
+        </div>
+        <div class="imagen">
+            <img src="assets/img/sticker2.png" alt="sticker2">
+            <input type="number" id="sticker_2">
+        </div>
+        <div class="imagen">
+            <img src="assets/img/sticker3.png" alt="sticker3">
+            <input type="number" id="sticker_3">
+
+        </div>
+        <div class="imagen">
+            <img src="assets/img/sticker4.png" alt="sticker4">
+            <input type="number" id="sticker_4">
+        </div>
+    
+
+    </div>
+
+    <div class="resultado">
+        <p id="resultadoSticker"></p>
+        <button class="checkeo">LLEVAR</button>
+    </div>
+   </section>
+
+   <!-- Parte 3: password-->
+
+
+   <section class="passwordContainer">
+    <div class="seccionPassword">
+      <h2>Ingresa el password</h2>
+      <div class="selectores">
+        <div class="selector">
+          <select id="primero">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="selector">
+          <select id="segundo">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <div class="selector">
+          <select id="tercero">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+      </div>
+      <button class="verificarPassword">VERIFICAR</button>
+      <h3 id="respuesta"></h3>
+    </div>
+  </section>
+
+
+   <script src="./script.js"></script>   
+</body>
+
+
+
+</html>
